@@ -6,7 +6,7 @@ export function AboutSection() {
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h2>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto space-y-8">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
               I'm Rohit Singh Rawat, a Computer Science Engineering student at Graphic Era Deemed to be University,
@@ -20,7 +20,7 @@ export function AboutSection() {
               challenges and continuously learning new technologies.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 pt-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
               <Card>
                 <CardContent className="p-4 text-center">
                   <div className="text-2xl font-bold text-primary">900+</div>
@@ -49,14 +49,6 @@ export function AboutSection() {
                 </CardContent>
               </Card>
             </div>
-          </div>
-
-          <div className="flex justify-center">
-            <img
-              src="/placeholder-tf360.png"
-              alt="Developer workspace"
-              className="rounded-lg shadow-lg max-w-full h-auto"
-            />
           </div>
         </div>
       </div>
