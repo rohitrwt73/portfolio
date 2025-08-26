@@ -13,10 +13,11 @@ export function HeroSection() {
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-4xl text-center">
         <div className="mb-8">
-          <Avatar className="w-32 h-32 mx-auto mb-6">
-            <AvatarImage src="/professional-headshot.png" alt="Profile" />
-            <AvatarFallback className="text-2xl">RS</AvatarFallback>
-          </Avatar>
+          <img
+        src="/dp.jpg"   
+        alt="Rohit Singh Rawat"
+        className="w-32 h-32 mx-auto mb-6 rounded-full object-cover shadow-lg"
+      />
 
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Rohit Singh Rawat</h1>
 
