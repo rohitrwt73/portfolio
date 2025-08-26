@@ -79,13 +79,20 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex gap-2">
-                  <Button size="sm" variant="outline" className="flex-1 bg-transparent">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Live Demo
+                  {/* Live Demo button */}
+                  <Button asChild size="sm" variant="outline" className="flex-1 bg-transparent">
+                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Live Demo
+                    </a>
                   </Button>
-                  <Button size="sm" variant="outline" className="flex-1 bg-transparent">
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
+
+                  {/* GitHub button */}
+                  <Button asChild size="sm" variant="outline" className="flex-1 bg-transparent">
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>
