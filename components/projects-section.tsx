@@ -11,7 +11,7 @@ const projects = [
     image: "/job-portal-website-interface.png",
     technologies: ["Java", "MySQL", "Spring Boot", "JWT Authentication", "Hibernate", "React.js"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/rohitrwt73/Job-Portal",
     details: "Built over 6 REST API endpoints, connected to MySQL database with 40+ sample job records",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     image: "/brain-mri-scan-classification-ai-interface.png",
     technologies: ["Python", "TensorFlow", "VGG16", "scikit-learn"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/rohitrwt73/Brain_tumor_detection",
     details: "Processed 4,074 training and 1,019 testing images with 99.7% accuracy",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     image: "/indian-constitution-quiz-learning-platform.png",
     technologies: ["JavaScript", "React.js", "Tailwind CSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/rohitrwt73/NagrikAurSamvidhan",
     details: "Smart India Hackathon project with engaging interactive content",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     image: "/phishing-detection-cybersecurity-dashboard.png",
     technologies: ["Python", "Pandas", "NumPy", "scikit-learn"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/rohitrwt73/Phishing-Attack-Detection",
     details: "Trained on 7,500 URLs, tested on 2,500 with 16 different features",
   },
 ]
