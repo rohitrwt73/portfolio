@@ -8,7 +8,7 @@ const projects = [
     title: "MeetJobs - A Job Portal",
     description:
       "A comprehensive job portal application with secure authentication, job posting, and search features. Built with React.js frontend and Spring Boot backend with MySQL database.",
-    image: "/job-portal-website-interface.png",
+    image: "/meetjobs.png",
     technologies: ["Java", "MySQL", "Spring Boot", "JWT Authentication", "Hibernate", "React.js"],
     liveUrl: "#",
     githubUrl: "https://github.com/rohitrwt73/Job-Portal",
