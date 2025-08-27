@@ -1,7 +1,6 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 export function HeroSection() {
   const scrollToProjects = () => {
@@ -13,16 +12,19 @@ export function HeroSection() {
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          
+          {/* Profile Picture */}
           <div className="flex-shrink-0 order-1 md:order-2">
-            <div className="w-32 h-32 rounded-full overflow-hidden">
-            <img
-        src="/dp.jpg"   
-        alt="Rohit Singh Rawat"
-        className="w-full h-full object-cover"
-      />
-              </div>
+            <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
+              <img
+                src="/dp.jpg"
+                alt="Rohit Singh Rawat"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
+          {/* Text Section */}
           <div className="flex-1 text-center md:text-left order-2 md:order-1">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Rohit Singh Rawat</h1>
 
