@@ -6,12 +6,12 @@ export function ContactSection() {
   return (
     <section id="contact" className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Get In Touch</h2>
+        <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-center">Get In Touch</h2>
 
         <div className="max-w-2xl mx-auto text-center">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-4">Let's Connect</h3>
+              <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-center">Let's Connect</h3>
               <p className="text-lg text-muted-foreground mb-8">
                 I'm always interested in new opportunities, collaborations, and challenging projects. Feel free to reach
                 out if you'd like to work together or discuss technology!
