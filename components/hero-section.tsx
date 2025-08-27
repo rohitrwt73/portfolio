@@ -26,7 +26,7 @@ export function HeroSection() {
 
           {/* Text Section */}
           <div className="flex-1 text-center md:text-left order-2 md:order-1">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Rohit Singh Rawat</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Rohit Singh Rawat</h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Computer Science Engineering Student | Software Developer | Machine Learning Enthusiast
