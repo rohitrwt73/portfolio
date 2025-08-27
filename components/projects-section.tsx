@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { Github } from "lucide-react"
 
 const projects = [
   {
@@ -50,23 +50,28 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-center">Featured Projects</h2>
+        <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-center">
+          Featured Projects
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="group hover:shadow-lg transition-shadow">
-              <div className="aspect-video overflow-hidden rounded-t-lg">
+              {/* Image container */}
+              <div className="h-64 flex items-center justify-center overflow-hidden rounded-t-lg bg-gray-100">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
 
               <CardHeader>
                 <CardTitle className="text-xl">{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
-                {project.details && <p className="text-sm text-muted-foreground mt-2">{project.details}</p>}
+                {project.details && (
+                  <p className="text-sm text-muted-foreground mt-2">{project.details}</p>
+                )}
               </CardHeader>
 
               <CardContent className="space-y-4">
@@ -79,9 +84,13 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex gap-2">
-
                   {/* GitHub button */}
-                  <Button asChild size="sm" variant="outline" className="flex-1 bg-transparent">
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="outline"
+                    className="flex-1 bg-transparent"
+                  >
                     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
                       Code
