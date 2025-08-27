@@ -12,7 +12,7 @@ export function HeroSection() {
   return (
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="w-32 h-32 rounded-full overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-shrink-0 order-1 md:order-2">
             <img
         src="/dp.jpg"   
