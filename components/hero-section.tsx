@@ -17,7 +17,7 @@ export function HeroSection() {
             <img
         src="/dp.jpg"   
         alt="Rohit Singh Rawat"
-        className="w-32 h-32 mx-auto mb-6 rounded-full object-cover shadow-lg"
+        className="w-48 h-48 mx-auto mb-6 rounded-full object-cover shadow-lg md:w-64 md:h-64"
       />
           </div>
 
