@@ -14,11 +14,13 @@ export function HeroSection() {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-shrink-0 order-1 md:order-2">
+            <div className="w-32 h-32 rounded-full overflow-hidden">
             <img
         src="/dp.jpg"   
         alt="Rohit Singh Rawat"
         className="w-full h-full object-cover"
       />
+              </div>
           </div>
 
           <div className="flex-1 text-center md:text-left order-2 md:order-1">
