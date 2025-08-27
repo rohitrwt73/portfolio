@@ -61,17 +61,17 @@ export function ContactSection() {
 
             <div className="flex space-x-4">
               <Button variant="outline" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/rohitrwt73/" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/rohit-singh-rawat-042a4a239/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-4 h-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/rohitrwt73/portfolio/" target="_blank" rel="noopener noreferrer">
                   <Code className="w-4 h-4" />
                 </a>
               </Button>
