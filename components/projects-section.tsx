@@ -79,13 +79,6 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex gap-2">
-                  {/* Live Demo button */}
-                  <Button asChild size="sm" variant="outline" className="flex-1 bg-transparent">
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </a>
-                  </Button>
 
                   {/* GitHub button */}
                   <Button asChild size="sm" variant="outline" className="flex-1 bg-transparent">
