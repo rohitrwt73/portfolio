@@ -8,17 +8,13 @@ export function AboutSection() {
 
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="space-y-6">
-            <p className="text-lg leading-relaxed">
-              I'm Rohit Singh Rawat, a Computer Science Engineering student at Graphic Era Deemed to be University,
-              Dehradun. I'm passionate about software development, machine learning, and creating innovative solutions
-              to real-world problems.
-            </p>
+           <p className="text-lg leading-relaxed">
+  I'm Rohit Singh Rawat, an Advanced Associate Software Engineer with a strong interest in Artificial Intelligence, Machine Learning, and Full-Stack Development. I enjoy designing scalable applications and leveraging technology to create impactful solutions.
+</p>
 
-            <p className="text-lg leading-relaxed">
-              With expertise in full-stack development, machine learning, and competitive programming, I've built
-              projects ranging from job portals to AI-powered medical diagnosis tools. I enjoy tackling complex
-              challenges and continuously learning new technologies.
-            </p>
+<p className="text-lg leading-relaxed">
+  My technical expertise includes Generative AI, Natural Language Processing, Machine Learning, React, Spring Boot, and database-driven application development. Notable projects include Cognify, an AI-powered research and academic assistance platform utilizing LLMs and vector embeddings, and a secure Job Portal featuring JWT-based authentication and advanced search capabilities. I am passionate about continuous learning and building products that deliver meaningful user experiences.
+</p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
               <Card>
