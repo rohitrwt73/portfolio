@@ -5,15 +5,27 @@ import { Github } from "lucide-react"
 
 const projects = [
   {
-    title: "MeetJobs - A Job Portal",
-    description:
-      "A comprehensive job portal application with secure authentication, job posting, and search features. Built with React.js frontend and Spring Boot backend with MySQL database.",
-    image: "/meetjobs.png",
-    technologies: ["Java", "MySQL", "Spring Boot", "JWT Authentication", "Hibernate", "React.js"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/rohitrwt73/Job-Portal",
-    details: "Built over 6 REST API endpoints, connected to MySQL database with 40+ sample job records",
-  },
+  title: "Cognify",
+  description:
+    "AI-powered research and academic assistance platform designed to streamline document analysis, semantic search, intelligent question answering, and automated essay evaluation.",
+  image: "/cognify.png",
+  technologies: [
+    "Python",
+    "OpenAI API",
+    "FAISS",
+    "Natural Language Processing",
+    "Generative AI",
+    "Machine Learning",
+    "PDF Extraction",
+    "Vector Embeddings",
+    "HTML"
+  ],
+  liveUrl: "#",
+  githubUrl: "https://github.com/rohitrwt73/Cognify",
+  details:
+    "Developed an intelligent document processing system that extracts and chunks PDF content, generates vector embeddings, performs semantic retrieval using FAISS, and leverages LLMs to provide context-aware answers. Implemented customizable essay grading rubrics for automated evaluation and feedback generation."
+},
+  
   {
     title: "CortexAI",
     description:
@@ -25,6 +37,16 @@ const projects = [
     details: "Processed 4,074 training and 1,019 testing images with 99.7% accuracy",
   },
   {
+    title: "MeetJobs - A Job Portal",
+    description:
+      "A comprehensive job portal application with secure authentication, job posting, and search features. Built with React.js frontend and Spring Boot backend with MySQL database.",
+    image: "/meetjobs.png",
+    technologies: ["Java", "MySQL", "Spring Boot", "JWT Authentication", "Hibernate", "React.js"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/rohitrwt73/Job-Portal",
+    details: "Built over 6 REST API endpoints, connected to MySQL database with 40+ sample job records",
+  },
+  {
     title: "NagrikAurSamvidhan",
     description:
       "Interactive quiz and learning platform for the Indian Constitution developed during Smart India Hackathon. Features 8+ responsive UI components and 10+ quiz sections.",
@@ -33,16 +55,6 @@ const projects = [
     liveUrl: "#",
     githubUrl: "https://github.com/rohitrwt73/NagrikAurSamvidhan",
     details: "Smart India Hackathon project with engaging interactive content",
-  },
-  {
-    title: "Phishing Attack Detection",
-    description:
-      "Machine learning solution to identify phishing websites by analyzing URL features. Uses Decision Tree Classifier trained on 10,000 URLs achieving 81% accuracy.",
-    image: "/phishing-detection-cybersecurity-dashboard.png",
-    technologies: ["Python", "Pandas", "NumPy", "scikit-learn"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/rohitrwt73/Phishing-Attack-Detection",
-    details: "Trained on 7,500 URLs, tested on 2,500 with 16 different features",
   },
 ]
 
