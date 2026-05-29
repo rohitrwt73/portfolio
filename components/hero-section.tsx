@@ -29,8 +29,8 @@ export function HeroSection() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Rohit Singh Rawat</h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Computer Science Engineering Student | Software Developer | Machine Learning Enthusiast
-            </p>
+  Advanced Associate Software Engineer | Machine Learning • Generative AI • Full-Stack Development
+</p>
 
             <Button size="lg" onClick={scrollToProjects} className="text-lg px-8 py-3">
               View My Work
